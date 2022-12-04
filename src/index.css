@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+:root {
+  --colorGreyLight: #6c757d;
+  --colorGrey: #343a40;
+  --colorGreyDark: #212529;
+  --colorBlue: #007bff;
+}
+
+.header__wrapper {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 16px 24px;
+  border-bottom: var(--colorGreyLight);
+  box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 5%);
+}
+
+.companyName {
+  font-size: 20px;
+  color: var(--colorGrey);
+}
+
+.nav__container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav__container a {
+  font-size: 16px;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.15s;
+  color: var(--colorGrey);
+}
+
+.nav__container a:hover {
+  color: var(--colorGrey);
+  border-bottom: 1px solid var(--colorGreyLight);
+}
+
+/* .btn-signUp {
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: 0.15s;
+  color: var(--colorBlue) !important;
+  border: 1px solid var(--colorBlue);
+} */
+
+/* Main */
+.pricing__main {
+  padding: 48px 16px 24px;
+  text-align: center;
+}
+
+.pricing__main h1 {
+  font-size: 56px;
+  font-weight: 300;
+  margin-bottom: 8px;
+  color: var(--colorGreyDark);
+}
+
+.pricing__main-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__main p {
+  font-size: 20px;
+  font-weight: 300;
+  max-width: 680px;
+  color: var(--colorGreyDark);
+}
+/* End Main */
+
+/* Card  */
+.card__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.cardHeader {
+  font-size: 24px;
+  text-align: center;
+}
+
+.card-body {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card-price {
+  font-size: 40px !important;
+}
+
+.card-price span {
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--colorGreyLight);
+}
+
+.card-text {
+  margin-bottom: 0;
+}
+
+.cardBtn {
+  width: 100%;
+  font-size: 20px !important;
+}
+/* End card  */
+
+/* footer */
+.footer__wrapper {
+  margin: 48px 260px;
+  padding: 48px 0;
+  border-top: 1px solid var(--colorGreyLight);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img__wrapper img {
+  width: 20px;
+  margin-bottom: 8px;
+}
+
+.img__wrapper p {
+  font-size: 12px;
+}
+
+.footer__title {
+  margin-bottom: 12px !important;
+}
+
+.footer__nav a {
+  text-decoration: none;
+  color: var(--colorGreyLight);
+}
+
+.footer__nav a:hover {
+  color: var(--colorGreyLight);
+  border-bottom: 1px solid var(--colorGreyLight);
+}
+/* End footer */
