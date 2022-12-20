@@ -47,7 +47,7 @@ export default function Championat() {
     { jamoa: "Pahtakor", },
   ]
 
-  const [jamoa, setJamoa] = useState("")
+  const [jamoa, setJamoa] = useState("Barcelona")
 
   function showWiner() {
     setJamoa("Real Madrid")

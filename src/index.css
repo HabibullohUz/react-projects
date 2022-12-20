@@ -196,3 +196,60 @@ body {
   background-color: red;
 }
 /* End game CSS*/
+
+/* Todo List */
+.todoList__wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 28px;
+  background-image: linear-gradient(to bottom right, #05c8e1, #b503a9);
+}
+
+.todo__list {
+  width: 460px;
+  padding: 8px 16px;
+  overflow: scroll;
+
+  border-radius: 12px;
+  backdrop-filter: blur(2px);
+  background-color: #ffffff23;
+}
+
+.form {
+  display: flex;
+}
+
+.form__input {
+  outline: none !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  text-overflow: ellipsis;
+}
+
+.form__btn {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  margin: 18px 0;
+  border-radius: 12px;
+
+  background-image: linear-gradient(to right, #05c8e1, #e913db);
+}
+
+/* .list__wrapper {
+  background-color: red;
+} */
+
+.list__text {
+  padding: 6px 8px;
+  border-radius: 7px;
+  word-break: break-word;
+  background-color: #fff;
+}
+/*End Todo List */

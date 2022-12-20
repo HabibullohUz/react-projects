@@ -1,11 +1,18 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Counter from './components/useState';
-
+import './sass/style.scss'
+import './components/axios/sass/user.scss'
+import Main from './components/axios/Main';
+import UserCard from './components/axios/UserCard';
+import User from './components/axios/User';
 
 function App() {
+
     return (
         <>
-            <Counter />
+            <User />
+            <Main />
+            {/* <UserCard /> */}
+
         </>
     )
 }
